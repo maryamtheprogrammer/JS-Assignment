@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.hero {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero-text button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+
+.hero-text button:hover{
+    background-color: rgb(27, 27, 27);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hero-text #counter {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+
+
